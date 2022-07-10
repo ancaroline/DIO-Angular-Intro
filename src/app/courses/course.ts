@@ -8,17 +8,17 @@ export class Course {
     rating: number;
     releaseDate: string;
     description: string;
+    static id: number;
 
     constructor(id: number, name: string, imageUrl: string, price: number, code: string, duration: number, rating: number, releaseDate: string, description: string) {
-        this.id = 0,
-        this.name = '',
-        this.imageUrl = '',
-        this.price = 0,
-        this.code = '',
-        this.duration = 0,
-        this.duration = 0,
-        this.rating = 0,
-        this.releaseDate = '',
-        this.description = ''
+        this.id = id,
+        this.name = name,
+        this.imageUrl = imageUrl,
+        this.price = price,
+        this.code = code,
+        this.duration = duration,
+        this.rating = rating,
+        this.releaseDate = releaseDate,
+        this.description = description
     }
 }
